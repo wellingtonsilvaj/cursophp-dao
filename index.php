@@ -44,6 +44,7 @@ $usuario = new Usuario();
 
 $usuario->loadById(4);
 
+
 $usuario->delete();
 
 echo $usuario;
