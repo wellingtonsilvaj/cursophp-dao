@@ -42,7 +42,7 @@ echo $usuario;*/
 
 $usuario = new Usuario();
 
-$usuario->loadById(5);
+$usuario->loadById(4);
 
 $usuario->delete();
 
